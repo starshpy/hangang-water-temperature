@@ -13,23 +13,19 @@
 ## 🚀 주요 기능 (Features)
 
 * **실시간 온도 확인:** 한강 물 온도 측정 API를 기반으로 최신 수온 데이터를 정확하게 가져옵니다.
-* **직관적인 인터페이스:** 복잡한 과정 없이 현재 상태와 정확한 시간을 즉시 확인할 수 있습니다.
+* **무설치 간편 실행:** 파이썬 환경 설정이 필요 없는 `.exe` 실행 파일로, 파일 하나만 실행하면 즉시 정보를 확인할 수 있습니다.
 * **메시지 캠페인:** 프로그램 실행 시, 고민을 멈추고 능동적인 변화를 이끌어낼 수 있는 응원 메시지를 함께 표시합니다.
 
-## 🛠 기술 스택 (Tech Stack)
+## 🛠 제작 정보 (Tech Stack)
 
 * **Language:** Python
 * **API:** [사용하신 API 명칭 기입]
-* **Libraries:** [사용하신 주요 라이브러리 기입]
+* **Packaging:** PyInstaller (단일 실행 파일 빌드)
 
-## 📥 설치 및 사용 방법 (How to use)
+## 📥 실행 방법 (How to run)
 
-```bash
-# 저장소 복제
-git clone [https://github.com/your-username/hanriver-temp.git](https://github.com/your-username/hanriver-temp.git)
+본 프로그램은 별도의 설치 과정이 필요 없습니다.
 
-# 필요한 라이브러리 설치
-pip install -r requirements.txt
-
-# 프로그램 실행
-python main.py
+1. 프로젝트의 페이지에서 실행 파일(`지금 한강은 어때.exe`)을 다운로드합니다.
+2. 다운로드한 파일을 실행합니다.
+3. 프로그램이 시작되면 실시간 한강 수온을 확인하실 수 있습니다.
